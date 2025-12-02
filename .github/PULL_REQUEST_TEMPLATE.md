@@ -1,39 +1,69 @@
 # Pull Request Template
 
-## Description
+## 1. Commit Message Convention
 
-Provide a concise and clear description of the changes introduced in this pull request. What problem does it solve? What new functionality does it add? What bug does it fix?
+*   **Type:** Choose one: `feat`, `fix`, `chore`, `docs`, `style`, `refactor`, `perf`, `test`.
+*   **Scope (Optional):** A noun describing the section of the codebase affected (e.g., `cli`, `api`, `core`).
+*   **Subject:** Concise description (max 50 chars), imperative mood, lowercase.
+*   **Body (Optional):** Explain *what* and *why* in more detail.
+*   **Footer (Optional):** Reference issues (`Closes #123`).
 
-## Related Issues
+**Example:** `feat(content-blocking): Add new filter list syntax support`
 
-Link any related issues or tickets using the `#` symbol (e.g., `#123`).
+--- 
 
-## Changes Made
+## 2. Changes Description
 
-*   [ ] **Breaking Change:** This PR introduces a backward-incompatible change.
-*   [ ] **New Feature:** This PR adds new functionality.
-*   [ ] **Bug Fix:** This PR resolves a bug.
-*   [ ] **Documentation Update:** This PR improves or adds documentation.
-*   [ ] **Refactoring:** This PR reorganizes code without changing functionality.
-*   [ ] **Performance Improvement:** This PR optimizes the performance.
-*   [ ] **Testing Update:** This PR adds, modifies, or removes tests.
-*   [ ] **Other:** Please specify.
+**Please provide a clear and concise summary of the changes introduced in this Pull Request.**
 
-## How to Test
+*   What problem does this PR solve?
+*   What was the approach taken?
+*   Are there any potential side effects or breaking changes?
 
-Describe the steps required to manually test the changes in this PR. Include any specific configurations, data, or commands needed.
+--- 
 
-## Checklist
+## 3. Related Issues
 
-*   [ ] My code follows the style guidelines of this project.
-*   [ ] I have performed a self-review of my own code.
-*   [ ] I have commented my code, particularly in hard-to-understand areas.
-*   [ ] I have made corresponding changes to the documentation.
-*   [ ] My changes generate no new warnings.
-*   [ ] I have added tests that prove my fix is effective or that my feature works.
-*   [ ] New and existing unit tests pass locally with my changes.
-*   [ ] Any dependent changes have been merged and published.
+*   **Link any relevant GitHub Issues here.**
+    *   Example: `Closes #42`
+    *   Example: `Relates to #101`
 
-## Additional Information
+--- 
 
-Provide any other context that might be helpful for the reviewer, such as screenshots, relevant logs, or design considerations.
+## 4. Architectural Alignment
+
+**This PR should align with the repository's core architectural principles and technology stack.**
+
+*   **Technology Stack:** Python 3.10+, uv, Ruff, Pytest.
+*   **Architecture:** Modular Monolith.
+*   **Apex Standards:** Adherence to Zero-Defect, High-Velocity, Future-Proof principles.
+
+--- 
+
+## 5. Verification Steps
+
+**Describe the steps required to manually verify that your changes work as expected.**
+
+*   [ ] Step 1: Describe action.
+*   [ ] Step 2: Describe expected outcome.
+
+--- 
+
+## 6. Self-Assessment Checklist
+
+*   [ ] My code follows the project's coding standards.
+*   [ ] I have added/updated tests that cover my changes.
+*   [ ] All new and existing unit tests pass.
+*   [ ] My changes have been reviewed for security vulnerabilities.
+*   [ ] My changes align with the repository's documented architecture.
+*   [ ] All documentation has been updated accordingly.
+
+--- 
+
+## 7. Screenshots/Recordings (if applicable)
+
+*   **For UI changes, please provide screenshots or recordings.**
+
+--- 
+
+**Thank you for contributing to `ChromeGuard-Official-Ad-Detection-Filter-Lists`!**
