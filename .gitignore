@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / object files
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Distribution / packaging
+*.egg-info/
+build/
+dist/
+wheels/
+*.whl
+
+# Virtual environment
+.venv/
+virtualenv/
+venv/
+ENV/
+env/
+
+# IDE / Editor specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Testing / Coverage
+.coverage
+htmlcov/
+*.cover
+.pytest_cache/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Secrets (if any were accidentally committed)
+.env
+*.env
+
+# Temporary files
+*.tmp
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Ruff cache
+.ruff_cache/
+
+# uv cache
+.uv_cache/
